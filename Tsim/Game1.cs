@@ -1,10 +1,12 @@
-﻿using System.Security.Principal;
+﻿using System;
+using System.Security.Principal;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using MonoGameLibrary;
 using MonoGameLibrary.Graphics;
 using Tsim.View;
+using MonoGameLibrary.Input;
 
 namespace Tsim;
 
@@ -53,13 +55,16 @@ public class Game1 : Core
 
     protected override void Update(GameTime gameTime)
     {
-        if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
+        Input.Keyboard.IsKeyDown(Keys.Tab);
+        if (Input.Keyboard.IsKeyDown(Keys.Escape))
+        {
             Exit();
-
+        }
         // TODO: Add your update logic here
 
         _redLight.Update(gameTime);
         base.Update(gameTime);
+
     }
 
     protected override void Draw(GameTime gameTime)
