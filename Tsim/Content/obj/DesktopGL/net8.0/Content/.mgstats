@@ -1,0 +1,6 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"/home/patrik/Documents/Codes/Selfdev/Tsim-Enhanced/Tsim/Content/images/atlas-definition.xml","/home/patrik/Documents/Codes/Selfdev/Tsim-Enhanced/Tsim/Content/bin/DesktopGL/Content/images/atlas-definition.xml","CopyItem","File",271,271,0.0001729
+"/home/patrik/Documents/Codes/Selfdev/Tsim-Enhanced/Tsim/Content/images/atlas.png","/home/patrik/Documents/Codes/Selfdev/Tsim-Enhanced/Tsim/Content/bin/DesktopGL/Content/images/atlas.xnb","TextureProcessor","Texture2DContent",590,16469,0.0875168
+"/home/patrik/Documents/Codes/Selfdev/Tsim-Enhanced/Tsim/Content/images/logo.png","/home/patrik/Documents/Codes/Selfdev/Tsim-Enhanced/Tsim/Content/bin/DesktopGL/Content/images/logo.xnb","TextureProcessor","Texture2DContent",16734,311381,0.3356296
+"/home/patrik/Documents/Codes/Selfdev/Tsim-Enhanced/Tsim/Content/images/tsim-definition.xml","/home/patrik/Documents/Codes/Selfdev/Tsim-Enhanced/Tsim/Content/bin/DesktopGL/Content/images/tsim-definition.xml","CopyItem","File",710,710,0.000181
+"/home/patrik/Documents/Codes/Selfdev/Tsim-Enhanced/Tsim/Content/images/tsimtexture.png","/home/patrik/Documents/Codes/Selfdev/Tsim-Enhanced/Tsim/Content/bin/DesktopGL/Content/images/tsimtexture.xnb","TextureProcessor","Texture2DContent",2335,1048661,0.1521327

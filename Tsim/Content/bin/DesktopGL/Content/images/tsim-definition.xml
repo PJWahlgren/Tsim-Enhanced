@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas>
+    <Texture>images/tsimtexture</Texture>
+    <Regions>
+        <Region name="forward-track" x="0" y="0" width="32" height="32" />
+        <Region name="turn-track" x="32" y="0" width="32" height="32" />
+
+        <Region name="sand" x="64" y="0" width="32" height="32" />
+        <Region name="red-light-0" x="0" y="32" width="32" height="64" />
+        <Region name="red-light-1" x="32" y="32" width="32" height="64" />
+    </Regions>
+    <Animations>
+        <Animation name="red-light-animation" delay="1000">
+            <Frame region="red-light-0" />
+            <Frame region="red-light-1" />
+        </Animation>
+    </Animations>
+</TextureAtlas>
